@@ -1,0 +1,50 @@
+.Archiving_main {
+  display: flex;
+}
+.Archiving_L {
+  width: 41%;
+  height: 888px;
+  float: left;
+  background-image: url(../img/로그캐릭터.jpg);
+  background-size: cover;
+}
+.Archiving_R {
+  width: 59%;
+  float: right;
+}
+.Archiving_R_main {
+  height: 888px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: black;
+}
+@font-face {
+  font-family: "gomi";
+  src: url(../assets/fonts/KNPSKkomi.ttf);
+}
+:root {
+  --font-gomi: "gomi";
+  --font-gomi: "gomi";
+}
+.Archiving_R2 {
+  font-size: 40px;
+  padding-left: 10px;
+}
+
+.Archiving_img1 {
+  width: 25%;
+  padding-left: 155px;
+}
+.Archiving_R2 > a {
+  text-decoration-line: none;
+  color: red;
+}
+.Archiving_R1 {
+  font-family: "gomi";
+  font-size: 6em;
+  color: rgb(51, 216, 216);
+  padding-right: 280px;
+  padding-bottom: 145px;
+}

@@ -1,0 +1,32 @@
+.Project_main {
+  display: flex;
+  width: 100%;
+  height: 888px;
+  padding-top: 50px;
+}
+
+.Project_L1 {
+  width: 33.4%;
+  height: 800px;
+  box-shadow: inset 0px 0px 5px 10px rgb(132 126 126 / 61%);
+}
+.Project_L1:hover {
+  transform: translateY(20px);
+}
+.Project_L2:hover {
+  transform: translateY(20px);
+}
+.Project_L3:hover {
+  transform: translateY(20px);
+}
+.Project_L2 {
+  height: 800px;
+  width: 33.3%;
+  box-shadow: inset 0px 0px 5px 10px rgb(132 126 126 / 61%);
+}
+
+.Project_L3 {
+  height: 800px;
+  width: 33.3%;
+  box-shadow: inset 0px 0px 5px 10px rgb(132 126 126 / 61%);
+}

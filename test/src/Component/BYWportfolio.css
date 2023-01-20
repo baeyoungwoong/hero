@@ -1,0 +1,72 @@
+.div0 {
+  width: 100%;
+  height: calc(100% - 80px);
+  text-align: center;
+  font-family: var(--font-kang);
+  background-image: url(../img/84627_86251_3542.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.div1 {
+  font-size: 3em;
+  font-family: var(--font-cookie);
+  color: whitesmoke;
+}
+.div2 {
+  font-size: 1.8em;
+  font-family: var(--font-gyobo);
+  color: white;
+  padding-bottom: 390px;
+}
+@font-face {
+  font-family: "gyobo";
+  src: url(../assets/fonts/KyoboHandwriting2021sjy.ttf);
+}
+@font-face {
+  font-family: "cookie";
+  src: url(../assets/fonts/CookieRun\ Regular.ttf);
+}
+:root {
+  --font-cookie: "cookie";
+  --font-cookie: "cookie";
+  --font-gyobo: "gyobo";
+  --font-gyobo: "gyobo";
+}
+.but {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  color: black;
+  cursor: pointer;
+}
+
+.but:hover {
+  transform: scale(1.2);
+}
+.but:active {
+  transform: scale(1.5);
+}
+.hr {
+  width: 50px;
+  border: 2px solid rgb(241, 255, 46);
+}

@@ -1,0 +1,90 @@
+.Aboutmain {
+  display: flex;
+}
+.left {
+  width: 41%;
+  height: 888px;
+  float: left;
+  background-image: url(../img/로그캐릭터.jpg);
+  background-size: cover;
+}
+.right {
+  width: 59%;
+}
+
+.right1 {
+  float: right;
+  position: relative;
+  margin: 120px 50px 0px 0px;
+  width: 450px;
+  height: 190px;
+  background: #ffff0082;
+  border-radius: 10px;
+  font-size: 85px;
+  text-align: center;
+  font-family: var(--font-gomi);
+  position: relative;
+  animation: fadeInLeft 1s;
+}
+
+.right1::after {
+  border-top: 20px solid #ffff0082;
+  border-left: 0px solid transparent;
+  border-right: 27px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: "";
+  position: absolute;
+  top: 85px;
+  left: 450px;
+}
+.right2 {
+  position: absolute;
+  margin: 415px 0px 0px 0px;
+  width: 450px;
+  height: 220px;
+  background: #80808040;
+  border-radius: 10px;
+  font-family: var(--font-gomi);
+  font-size: 2em;
+  animation: fadeInRight 10s;
+}
+.right2::after {
+  border-top: 27px solid #80808040;
+  border-left: 32px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  content: "";
+  position: absolute;
+  top: 95px;
+  left: -32px;
+}
+@font-face {
+  font-family: "gomi";
+  src: url(../assets/fonts/KNPSKkomi.ttf);
+}
+:root {
+  --font-gomi: "gomi";
+  --font-gomi: "gomi";
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: -100%;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 80;
+    transform: translateX(20px);
+  }
+}

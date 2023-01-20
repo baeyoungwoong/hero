@@ -1,0 +1,102 @@
+.skillsMain {
+  display: flex;
+}
+.leftt {
+  width: 41%;
+  height: 888px;
+  float: left;
+  background-image: url(../img/로그캐릭터.jpg);
+  background-size: cover;
+}
+.rightt {
+  width: 59%;
+  float: right;
+}
+
+.rightt1 {
+  height: 444px;
+}
+.rightt2 {
+  height: 444px;
+}
+.skill1 {
+  font-size: 3em;
+  font-family: var(--font-gomi);
+  color: #1fb9b9;
+  animation: fadeInTop 3s;
+}
+
+.skill2 {
+  font-size: 3em;
+  font-family: var(--font-gomi);
+  color: #1fb9b9;
+  animation: fadeInTop 3s;
+}
+
+.skillimg {
+  width: 415px;
+  height: 300px;
+  padding: 50px 0px 0px 80px;
+}
+
+.skillimg1 {
+  width: 322px;
+  height: 300px;
+  padding: 50px 0px 0px 190px;
+}
+@font-face {
+  font-family: "gomi";
+  src: url(../assets/fonts/KNPSKkomi.ttf);
+}
+:root {
+  --font-gomi: "gomi";
+  --font-gomi: "gomi";
+}
+.skillimg2 {
+  width: 280px;
+  height: 300px;
+  padding-top: 50px;
+}
+.skillimg3 {
+  width: 280px;
+  height: 300px;
+  padding-top: 50px;
+}
+.skillimg4 {
+  width: 280px;
+  height: 300px;
+  padding-top: 50px;
+}
+.skillimg5 {
+  width: 280px;
+  height: 300px;
+  padding-top: 50px;
+}
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: -100%;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 80;
+    transform: translateY(0px);
+  }
+}
+
+.skillshow {
+  animation: fadeInTop 0.5s;
+}
+.skillshow1 {
+  animation: fadeInTop 0.5s;
+}

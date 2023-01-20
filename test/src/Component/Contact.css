@@ -1,0 +1,51 @@
+.Contact_main {
+  display: flex;
+}
+
+.Contact_L {
+  width: 41%;
+  height: 888px;
+  float: left;
+  background-image: url(../img/로그캐릭터.jpg);
+  background-size: cover;
+}
+
+.Contact_R {
+  width: 59%;
+  float: right;
+  box-shadow: inset 10px 5px 25px 110px rgb(132 126 126 / 61%);
+}
+
+.Contact_R_main {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 888px;
+  flex-direction: column;
+}
+
+.Contact_R1 {
+  padding-bottom: 50px;
+  font-family: "gomi";
+  font-size: 6em;
+  color: rgb(26, 237, 100);
+}
+.Contact_R2 {
+  padding-bottom: 50px;
+  font-family: "gomi";
+  font-size: 2em;
+  color: grey;
+}
+.Contact_R3 {
+  font-family: "gomi";
+  font-size: 2em;
+  color: gray;
+}
+@font-face {
+  font-family: "gomi";
+  src: url(../assets/fonts/KNPSKkomi.ttf);
+}
+:root {
+  --font-gomi: "gomi";
+  --font-gomi: "gomi";
+}
