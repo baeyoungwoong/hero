@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hero/static/css/main.c56b6f27.css",
+    "main.js": "/hero/static/js/main.9cf6d34f.js",
+    "static/media/KyoboHandwriting2021sjy.ttf": "/hero/static/media/KyoboHandwriting2021sjy.d554d9e2fc2e449754fd.ttf",
+    "static/media/KNPSKkomi.ttf": "/hero/static/media/KNPSKkomi.9f8e99df738e73a72b5f.ttf",
+    "static/media/CookieRun Regular.ttf": "/hero/static/media/CookieRun Regular.52560075f5d887966bf2.ttf",
+    "static/media/84627_86251_3542.png": "/hero/static/media/84627_86251_3542.635a6bd237ee132da3c9.png",
+    "static/media/로그캐릭터.jpg": "/hero/static/media/로그캐릭터.2c86976c44b982cfb78e.jpg",
+    "static/media/github.png": "/hero/static/media/github.969f982d45c682fa7d9b.png",
+    "index.html": "/hero/index.html",
+    "main.c56b6f27.css.map": "/hero/static/css/main.c56b6f27.css.map",
+    "main.9cf6d34f.js.map": "/hero/static/js/main.9cf6d34f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c56b6f27.css",
+    "static/js/main.9cf6d34f.js"
+  ]
+}
